@@ -11,11 +11,9 @@ int main() {
     cout <<"==============================" << endl;
 
     cout << "Enter student name:";
-    cin >> studentName;
-    getline(cin, studentName); // To read the full name including spaces
-    cout << "Enter student ID:";
-    cin >> studentID;
-    getline(cin, studentID); // To read the full ID including spaces
+    getline(cin, studentName); 
+    cout << "Enter student ID)";
+    getline(cin, studentID);
 
     cout << "\nStudent Information:" << endl;
     cout << "Student name: " << studentName << endl;
